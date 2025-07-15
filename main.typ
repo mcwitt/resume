@@ -33,23 +33,23 @@
 * #generic-one-by-two(left: "", right: "")
 */
 
-Research engineer with a track record of taking ideas from abstract theory to
-performant systems. Passionate about gaining a deep understanding of problems
-and applying tools and techniques for building reliable, maintainable software.
+Research engineer/scientist with a track record of developing ideas from abstract theory to performant, maintainable systems
 
 == Work Experience
 
 #work(
   title: "Research Software Engineer", company: "Relay Therapeutics", location: "Cambridge, MA (Remote)", dates: dates-helper(start-date: "Nov 2021", end-date: "Apr 2025"),
 )
-- Core developer of computational free energy platform that accelerated multiple
-  drug discovery R&D projects
+- Core developer of physics-based drug potency prediction platform that
+  accelerated drug discovery R&D projects
 - Researched and implemented high-performance simulation and inference algorithms
   using JAX and custom CUDA kernels
-- Deployed simulations to \~thousands of GPU nodes using AWS Batch and Terraform
+- Collaborated with academic researchers to develop novel computational free
+  energy methods
+- Deployed workloads to thousands of GPUs using AWS Batch and Terraform
 - Advocated for and drove adoption of sustainable engineering practices, including
-  gradual static typing, property-based testing, linting, and CI/CD optimizations
-  to shorten cycle time
+  gradual static typing, property-based testing, and CI/CD optimizations to
+  shorten cycle time
 
 #work(
   title: "Software Engineer", company: "SafeGraph", location: "San Francisco, CA (Remote)", dates: dates-helper(start-date: "Sep 2020", end-date: "Nov 2021"),
@@ -75,12 +75,12 @@ and applying tools and techniques for building reliable, maintainable software.
   title: "Data Platform Engineer", location: "San Francisco, CA", company: "Scoop Technologies", dates: dates-helper(start-date: "Oct 2018", end-date: "Dec 2019"),
 )
 - Built and deployed data pipelines in Scala/Spark to enable datalake and ML
-  applications
+  applications in the ridesharing space
 
 #work(
   title: "Data Scientist", location: "San Francisco, CA", company: "Stitch Fix", dates: dates-helper(start-date: "Jan 2016", end-date: "Sep 2018"),
 )
-- Designed and implemented methods, APIs, and internal apps for simulation-based
+- Designed and implemented algorithms, APIs, and tools for simulation-based
   inventory forecasting and optimization
 - Released Python library for fitting and prediction using empirical Bayes models,
   used in multiple internal projects
@@ -108,15 +108,16 @@ related to Python data science and ML
 #project(
   name: "hasktorch", dates: dates-helper(start-date: "2020", end-date: "2021"), url: "github.com/hasktorch/hasktorch",
 ) \
-Contributor to Haskell tensor library backed by libtorch. Extended the gradually-typed tensor API and created a tutorial
+Contributor to Haskell tensor library backed by libtorch. Extended the
+gradually-typed tensor API and created a tutorial
 
 == Skills
 - *Languages*: Python (numpy, JAX, PyTorch), Haskell, C++, CUDA, Scala, Elm
-- *Research*: computational physics, machine learning, deep learning, Monte Carlo
-  simulation, Bayesian inference, probabilistic programming
+- *Research*: machine learning, deep learning, Bayesian inference, probabilistic
+  programming, simulation, physics
 - *Software engineering*: testing, profiling, functional programming, distributed
-  data processing (Spark), databases (PostgreSQL), git, reproducible environments
-  (Nix)
+  data processing (Spark), databases (PostgreSQL), git, reproducible builds (Nix),
+  agentic coding tools
 - *Infra/deployment*: IaC (Terraform, Pulumi), CI/CD, containers (Docker),
   orchestration (Kubernetes), AWS
 
@@ -160,4 +161,3 @@ Research in computational statistical physics, including #link(
 //   // url: "",
 //   date: "Oct 2024",
 // )
-
