@@ -16,13 +16,17 @@
     #   url = "github:FortAwesome/Font-Awesome";
     #   flake = false;
     # };
+
+    git-hooks.url = "github:cachix/git-hooks.nix";
   };
 
   outputs =
     inputs@{
+      self,
       nixpkgs,
       typix,
       flake-utils,
+      git-hooks,
       ...
     }:
     flake-utils.lib.eachDefaultSystem (
@@ -88,6 +92,19 @@
       {
         checks = {
           inherit build-drv build-script watch-script;
+
+          pre-commit-check = git-hooks.lib.${system}.run {
+            src = ./.;
+            package = pkgs.prek;
+            hooks = {
+              nixfmt-rfc-style.enable = true;
+
+              typstyle = {
+                enable = true;
+                entry = "${pkgs.typstyle}/bin/typstyle -i --line-width 80 --wrap-text";
+              };
+            };
+          };
         };
 
         packages.default = build-drv;
@@ -102,18 +119,24 @@
           };
         };
 
-        devShells.default = typixLib.devShell {
-          inherit (commonArgs) fontPaths virtualPaths;
-          packages = [
-            # WARNING: Don't run `typst-build` directly, instead use `nix run .#build`
-            # See https://github.com/loqusion/typix/issues/2
-            # build-script
-            watch-script
-            # More packages can be added here, like typstfmt
-            pkgs.tinymist
-            pkgs.typstfmt
-          ];
-        };
+        devShells.default =
+          let
+            inherit (self.checks.${system}.pre-commit-check) shellHook enabledPackages;
+          in
+          typixLib.devShell {
+            inherit (commonArgs) fontPaths virtualPaths;
+            extraShellHook = shellHook;
+            packages = [
+              # WARNING: Don't run `typst-build` directly, instead use `nix run .#build`
+              # See https://github.com/loqusion/typix/issues/2
+              # build-script
+              watch-script
+
+              pkgs.prek
+              pkgs.tinymist
+            ]
+            ++ enabledPackages;
+          };
       }
     );
 }
