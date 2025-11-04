@@ -41,8 +41,8 @@
  * #generic-one-by-two(left: "", right: "")
  */
 
-Research engineer/scientist with a track record of developing ideas from
-abstract theory to performant, maintainable systems
+Research engineer with a track record of developing ideas from abstract theory
+to high-performance, maintainable systems
 
 == Work Experience
 
@@ -54,14 +54,16 @@ abstract theory to performant, maintainable systems
 )
 - Core developer of physics-based drug potency prediction platform that
   accelerated drug discovery R&D projects
-- Researched and implemented high-performance simulation and inference
-  algorithms using JAX and custom CUDA kernels
-- Collaborated with academic researchers to develop novel computational free
-  energy methods
+- Implemented and optimized high-performance simulation and inference algorithms
+  using JAX and custom CUDA kernels
+- Led collaboration with academic researchers in computational chemistry to
+  develop novel methods for affinity prediction
 - Deployed workloads to thousands of GPUs using AWS Batch and Terraform
-- Advocated for and drove adoption of sustainable engineering practices,
-  including gradual static typing, property-based testing, and CI/CD
-  optimizations to shorten cycle time
+- Developed visual diagnostic tools to quickly surface issues in molecular
+  simulations and accelerate troubleshooting
+- Advocated for and drove adoption of tools to improve code quality and
+  developer experience, e.g. property-based testing, gradual static typing, and
+  CI/CD optimizations
 
 #work(
   title: "Software Engineer",
@@ -74,9 +76,8 @@ abstract theory to performant, maintainable systems
   and Kubernetes
 - Automated QA workflow for contractors, including AST-level checks to verify
   safety and robustness
-- Turned hackathon product idea into internal app for automated diagnosis and
-  correction of data quality issues in core product, drastically reducing time
-  to address issues
+- Designed and implemented application for automated diagnosis and correction of
+  data quality issues in core product
 
 // #work(
 //   title: "Contract Software Engineer",
@@ -106,7 +107,7 @@ abstract theory to performant, maintainable systems
 - Released Python library for fitting and prediction using empirical Bayes
   models, used in multiple internal projects
 
-== Open-source contributions
+== Open source
 
 #project(
   name: "timemachine",
@@ -117,8 +118,8 @@ abstract theory to performant, maintainable systems
   // URL is also optional
   url: "github.com/proteneer/timemachine",
 ) \
-Core contributor to timemachine, a high-performance, differentiable molecular
-dynamics and forcefield engine
+Core contributor developing a high-performance, differentiable molecular
+dynamics engine leveraging JAX and CUDA
 
 #project(
   name: "nixpkgs",
@@ -137,14 +138,10 @@ Contributor to Haskell tensor library backed by libtorch. Extended the
 gradually-typed tensor API and created a tutorial
 
 == Skills
-- *Languages*: Python (numpy, JAX, PyTorch), Haskell, C++, CUDA, Scala, Elm
-- *Research*: machine learning, deep learning, Bayesian inference, probabilistic
-  programming, simulation, physics
-- *Software engineering*: testing, profiling, functional programming,
-  distributed data processing (Spark), databases (PostgreSQL), git, reproducible
-  builds (Nix), agentic coding tools
-- *Infra/deployment*: IaC (Terraform, Pulumi), CI/CD, containers (Docker),
-  orchestration (Kubernetes), AWS
+- *Languages*: Python (JAX, PyTorch), C/C++, CUDA, Haskell
+- *Tools*: setuptools/pip, CMake, Nix, Docker, CI/CD, IaC, agentic coding
+- *Research*: machine learning, simulation, physics, MCMC methods, Bayesian
+  inference
 
 == Education
 
