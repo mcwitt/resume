@@ -62,8 +62,8 @@ to high-performance, maintainable systems
 - Developed visual diagnostic tools to quickly surface issues in molecular
   simulations and accelerate troubleshooting
 - Advocated for and drove adoption of tools to improve code quality and
-  developer experience, e.g. property-based testing, gradual static typing, and
-  CI/CD optimizations
+  developer productivity, e.g. property-based testing, gradual static typing,
+  and CI/CD optimizations
 
 #work(
   title: "Software Engineer",
