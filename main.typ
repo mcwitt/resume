@@ -68,7 +68,7 @@ to high-performance, maintainable systems
 #work(
   title: "Software Engineer",
   company: "SafeGraph",
-  location: "San Francisco, CA (Remote)",
+  location: "San Francisco, CA",
   dates: dates-helper(start-date: "Sep 2020", end-date: "Nov 2021"),
 )
 - Developed orchestration system and data pipeline to scrape and infer
@@ -76,8 +76,8 @@ to high-performance, maintainable systems
   and Kubernetes
 - Automated QA workflow for contractors, including AST-level checks to verify
   safety and robustness
-- Designed and implemented application for automated diagnosis and correction of
-  data quality issues in core product
+- Designed and implemented full-stack application for automated diagnosis and
+  correction of data quality issues in core product
 
 // #work(
 //   title: "Contract Software Engineer",
@@ -140,8 +140,8 @@ gradually-typed tensor API and created a tutorial
 == Skills
 - *Languages*: Python (JAX, PyTorch), C/C++, CUDA, Haskell
 - *Tools*: setuptools/pip, CMake, Nix, Docker, CI/CD, IaC, agentic coding
-- *Research*: machine learning, simulation, physics, MCMC methods, Bayesian
-  inference
+- *Domain expertise*: machine learning, simulation, physics, MCMC methods,
+  Bayesian inference
 
 == Education
 
