@@ -56,8 +56,6 @@ to high-performance, maintainable systems
   accelerated drug discovery R&D programs
 - Implemented and optimized high-performance simulation and inference algorithms
   using JAX and custom CUDA kernels
-- Prototyped and deployed enhanced sampling methods to improve convergence of
-  free energy estimates
 - Led collaboration with academic researchers to prototype novel free energy
   perturbation (FEP) approaches
 - Deployed workloads to thousands of GPUs using AWS Batch and Terraform
@@ -131,19 +129,24 @@ dynamics engine leveraging JAX and CUDA
 Contributor and maintainer of packages in the Nix ecosystem, particularly
 related to Python data science and ML
 
-#project(
-  name: "hasktorch",
-  dates: dates-helper(start-date: "2020", end-date: "2021"),
-  url: "github.com/hasktorch/hasktorch",
-) \
-Contributor to Haskell tensor library backed by libtorch. Extended the
-gradually-typed tensor API and created a tutorial
+// #project(
+//   name: "hasktorch",
+//   dates: dates-helper(start-date: "2020", end-date: "2021"),
+//   url: "github.com/hasktorch/hasktorch",
+// ) \
+// Contributor to Haskell tensor library backed by libtorch. Extended the
+// gradually-typed tensor API and created a tutorial
 
 == Skills
-- *Languages*: Python (JAX, PyTorch), C/C++, CUDA, Haskell
-- *Tools*: setuptools/pip, CMake, Nix, Docker, CI/CD, IaC, agentic coding
-- *Domain expertise*: machine learning, simulation, physics, MCMC methods,
-  Bayesian inference
+- *Languages*: Python, C++, Scala, Haskell, SQL
+- *HPC/GPU*: CUDA, Triton, JAX/Pallas, profiling (Nsight, Perfetto), CMake
+- *ML & Scientific computing*: JAX, PyTorch, automatic~differentiation,
+  MCMC~methods, Bayesian~inference, probabilistic~programming,
+  stochastic~optimization, molecular~simulation, FEP, enhanced~sampling~methods
+- *Data & Infrastructure*: Spark, Docker, Kubernetes, Terraform, Pulumi, AWS,
+  GCP
+- *Dev tools & practices*: Nix, CI/CD, property-based~testing, AI~coding~tools
+  (Claude~Code)
 
 == Education
 

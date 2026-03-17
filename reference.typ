@@ -153,14 +153,15 @@ Contributor to Haskell tensor library backed by libtorch. Extended the
 gradually-typed tensor API and created an introductory tutorial for new users
 
 == Skills
-
-- *Languages*: Python (JAX, PyTorch), C/C++, CUDA, Haskell, Scala, SQL,
-  JavaScript (React), Elm
-- *Tools*: setuptools/pip, CMake, Nix, Docker, CI/CD, IaC (Terraform, Pulumi),
-  orchestration (Kubernetes), cloud (AWS, GCP), agentic coding
-- *Domain expertise*: machine learning, simulation, physics, MCMC methods,
-  Bayesian inference, probabilistic programming, mathematical modeling,
-  numerical analysis, stochastic optimization
+- *Languages*: Python, C++, Scala, Haskell, Elm, SQL
+- *HPC/GPU*: CUDA, Triton, JAX/Pallas, profiling (Nsight, Perfetto), CMake
+- *ML & Scientific computing*: JAX, PyTorch, automatic~differentiation,
+  MCMC~methods, Bayesian~inference, probabilistic~programming,
+  stochastic~optimization, molecular~simulation, FEP, enhanced~sampling~methods
+- *Data & Infrastructure*: Spark, Docker, Kubernetes, Terraform, Pulumi, AWS,
+  GCP
+- *Dev tools & practices*: Nix, setuptools/pip, CI/CD, property-based~testing,
+  AI~coding~tools (Claude~Code)
 
 == Publications
 
