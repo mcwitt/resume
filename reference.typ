@@ -36,12 +36,14 @@ their work and support each other.
   location: "Cambridge, MA (Remote)",
   dates: dates-helper(start-date: "Nov 2021", end-date: "Apr 2025"),
 )
-- Core developer of physics-based drug potency prediction platform that
-  accelerated drug discovery R&D projects
+- Core developer of physics-based binding affinity prediction platform that
+  accelerated drug discovery R&D programs
 - Implemented and optimized high-performance simulation and inference algorithms
   using JAX and custom CUDA kernels
-- Led collaboration with academic researchers in computational chemistry to
-  develop novel methods for affinity prediction
+- Prototyped and deployed enhanced sampling methods to improve convergence of
+  free energy estimates
+- Led collaboration with academic researchers to prototype novel free energy
+  perturbation (FEP) approaches
 - Deployed workloads to thousands of GPUs using AWS Batch and Terraform
 - Developed visual diagnostic tools to quickly surface issues in molecular
   simulations and accelerate troubleshooting
