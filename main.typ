@@ -138,11 +138,12 @@ related to Python data science and ML
 // gradually-typed tensor API and created a tutorial
 
 == Skills
+
 - *Languages*: Python, C++, Scala, Haskell, SQL
-- *HPC/GPU*: CUDA, Triton, JAX/Pallas, profiling (Nsight, Perfetto), CMake
+- *HPC*: CUDA, Triton, Pallas, profiling (Nsight, Perfetto), CMake
 - *ML & Scientific computing*: JAX, PyTorch, automatic~differentiation,
   MCMC~methods, Bayesian~inference, probabilistic~programming,
-  stochastic~optimization, molecular~simulation, FEP, enhanced~sampling~methods
+  molecular~simulation, enhanced~sampling~methods
 - *Data & Infrastructure*: Spark, Docker, Kubernetes, Terraform, Pulumi, AWS,
   GCP
 - *Dev tools & practices*: Nix, CI/CD, property-based~testing, AI~coding~tools
