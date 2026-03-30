@@ -21,15 +21,10 @@
   personal-info-position: left,
 )
 
-// Summary options:
-// - Senior ML/Research Engineer specializing in GPU-accelerated computing,
-//   probabilistic inference, and scientific simulation. 10 years of experience
-//   spanning ML infrastructure, data platforms, and computational physics.
-// - Research engineer bridging the gap between abstract theory and
-//   production-ready systems.
-
-Research engineer bridging the gap between abstract theory and production-ready
-systems. Experience ranges from researching novel algorithms to implementing
+Senior ML/Research Engineer specializing in GPU-accelerated computing,
+probabilistic inference, and scientific simulation. 10 years of experience
+spanning ML infrastructure, data platforms, and computational physics.
+Experience ranges from researching novel algorithms to implementing
 high-performance software in JAX and CUDA and deploying at scale. Passionate
 about gaining a deep understanding of problems and building clear, effective,
 and maintainable systems. Thrives in low-ego teams that are passionate about
@@ -45,11 +40,9 @@ their work and support each other.
   attention, and flow matching
 - Developed a self-hosted #link("https://github.com/mcwitt/elwood")[AI agent
     platform] with sandboxed deployment, MCP tool discovery, and multi-agent
-  orchestration; features include tool use, prompt caching, context management,
-  and Prometheus observability
+  orchestration
 - Built and optimized #link("https://github.com/mcwitt/ising-cuda")[GPU kernels]
-  for Ising model Monte Carlo simulations using CUDA and JAX/Pallas, with
-  nanobind Python bindings and Nsight Compute profiling
+  for Monte Carlo simulation using CUDA and JAX/Pallas
 - Implemented a transformer from scratch in JAX; prototyped a reverse-mode AD
   eDSL in Haskell
 
@@ -68,8 +61,8 @@ their work and support each other.
   using JAX and custom CUDA kernels
 - Prototyped and deployed enhanced sampling methods to improve convergence of
   free energy estimates
-- Led collaboration with academic researchers in computational chemistry to
-  develop novel methods for binding affinity prediction
+- Led collaboration with academic researchers to prototype novel free energy
+  perturbation (FEP) approaches
 - Deployed workloads to thousands of GPUs using AWS Batch and Terraform
 - Developed visual diagnostic tools to quickly surface issues in molecular
   simulations and accelerate troubleshooting
@@ -80,7 +73,7 @@ their work and support each other.
 #work(
   title: "Software Engineer",
   company: "SafeGraph",
-  location: "San Francisco, CA (Remote)",
+  location: "San Francisco, CA",
   dates: dates-helper(start-date: "Sep 2020", end-date: "Nov 2021"),
 )
 - Developed orchestration system and data pipeline to scrape and infer
@@ -89,7 +82,7 @@ their work and support each other.
 - Automated QA workflow for contractors, including AST-level checks to verify
   safety and robustness
 - Proposed and built app for human-in-the-loop diagnosis and correction of data
-  quality issues in core product (originated as hackathon project)
+  quality issues
 - Mentored intern to successful completion of research project
 
 #work(
@@ -98,8 +91,8 @@ their work and support each other.
   location: "New York, NY (Remote)",
   dates: dates-helper(start-date: "Jul 2020", end-date: "Sep 2020"),
 )
-- Developed data pipeline and frontend for real-time analysis and visualization
-  of results from free energy simulations running on Folding\@home
+- Built and deployed app to parse, analyze, and visualize free energy
+  predictions for simulations running on Folding\@home
 
 #work(
   title: "Data Platform Engineer",
@@ -248,15 +241,6 @@ Research in computational statistical physics, including #link(
   location: "Boulder, CO",
   dates: dates-helper(start-date: "2005", end-date: "2009"),
   degree: "B.A., Physics, Mathematics",
-)
-
-== Certifications
-
-#certificates(
-  name: "Deep Learning Specialization",
-  issuer: "Coursera",
-  url: "https://www.coursera.org/account/accomplishments/specialization/FK65QQQS54GG",
-  date: "Jul 2019",
 )
 
 == Volunteer Experience
