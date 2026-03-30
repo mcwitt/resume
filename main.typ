@@ -58,8 +58,8 @@ spanning ML infrastructure, data platforms, and computational physics.
   orchestration
 - Built and optimized #link("https://github.com/mcwitt/ising-cuda")[GPU kernels]
   for Monte Carlo simulation using CUDA and JAX/Pallas
-- Implemented a transformer from scratch in JAX; prototyped a reverse-mode AD
-  eDSL in Haskell
+// - Implemented a transformer from scratch in JAX; prototyped a reverse-mode AD
+//   eDSL in Haskell
 
 #work(
   title: "Research Software Engineer",
