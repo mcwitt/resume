@@ -21,6 +21,13 @@
   personal-info-position: left,
 )
 
+// Summary options:
+// - Senior ML/Research Engineer specializing in GPU-accelerated computing,
+//   probabilistic inference, and scientific simulation. 10 years of experience
+//   spanning ML infrastructure, data platforms, and computational physics.
+// - Research engineer bridging the gap between abstract theory and
+//   production-ready systems.
+
 Research engineer bridging the gap between abstract theory and production-ready
 systems. Experience ranges from researching novel algorithms to implementing
 high-performance software in JAX and CUDA and deploying at scale. Passionate
@@ -30,20 +37,39 @@ their work and support each other.
 
 == Work Experience
 
+#generic-one-by-two(
+  left: strong[Independent Research & Engineering],
+  right: dates-helper(start-date: "Apr 2025", end-date: "Present"),
+)
+- Self-directed study of mechanistic interpretability, RLHF, efficient
+  attention, and flow matching
+- Developed a self-hosted #link("https://github.com/mcwitt/elwood")[AI agent
+    platform] with sandboxed deployment, MCP tool discovery, and multi-agent
+  orchestration; features include tool use, prompt caching, context management,
+  and Prometheus observability
+- Built and optimized #link("https://github.com/mcwitt/ising-cuda")[GPU kernels]
+  for Ising model Monte Carlo simulations using CUDA and JAX/Pallas, with
+  nanobind Python bindings and Nsight Compute profiling
+- Implemented a transformer from scratch in JAX; prototyped a reverse-mode AD
+  eDSL in Haskell
+
 #work(
   title: "Research Software Engineer",
   company: "Relay Therapeutics",
   location: "Cambridge, MA (Remote)",
   dates: dates-helper(start-date: "Nov 2021", end-date: "Apr 2025"),
 )
-- Core developer of physics-based binding affinity prediction platform that
+- Core contributor to #link(
+    "https://github.com/proteneer/timemachine",
+  )[timemachine], an open-source, GPU-accelerated molecular dynamics engine
+- Core developer of physics-based ML binding affinity prediction platform that
   accelerated drug discovery R&D programs
 - Implemented and optimized high-performance simulation and inference algorithms
   using JAX and custom CUDA kernels
 - Prototyped and deployed enhanced sampling methods to improve convergence of
   free energy estimates
-- Led collaboration with academic researchers to prototype novel free energy
-  perturbation (FEP) approaches
+- Led collaboration with academic researchers in computational chemistry to
+  develop novel methods for binding affinity prediction
 - Deployed workloads to thousands of GPUs using AWS Batch and Terraform
 - Developed visual diagnostic tools to quickly surface issues in molecular
   simulations and accelerate troubleshooting
@@ -62,9 +88,8 @@ their work and support each other.
   and Kubernetes
 - Automated QA workflow for contractors, including AST-level checks to verify
   safety and robustness
-- Designed and implemented full-stack application for automated diagnosis and
-  correction of data quality issues in core product (originated as hackathon
-  project)
+- Proposed and built app for human-in-the-loop diagnosis and correction of data
+  quality issues in core product (originated as hackathon project)
 - Mentored intern to successful completion of research project
 
 #work(
@@ -126,11 +151,11 @@ their work and support each other.
 - Published 5 peer-reviewed papers and presented research at academic
   conferences
 
-== Open source
+== Open Source Contributions
 
 #project(
   name: "timemachine",
-  dates: dates-helper(start-date: "2021", end-date: "Present"),
+  dates: dates-helper(start-date: "2021", end-date: "2025"),
   url: "github.com/proteneer/timemachine",
 ) \
 Core contributor developing a high-performance, differentiable molecular
@@ -153,34 +178,57 @@ Contributor to Haskell tensor library backed by libtorch. Extended the
 gradually-typed tensor API and created an introductory tutorial for new users
 
 == Skills
+
 - *Languages*: Python, C++, Scala, Haskell, Elm, SQL
-- *HPC/GPU*: CUDA, Triton, JAX/Pallas, profiling (Nsight, Perfetto), CMake
-- *ML & Scientific computing*: JAX, PyTorch, automatic~differentiation,
-  MCMC~methods, Bayesian~inference, probabilistic~programming,
-  stochastic~optimization, molecular~simulation, FEP, enhanced~sampling~methods
+- *ML & AI*: JAX, PyTorch, transformers, LLMs, inference~optimization,
+  automatic~differentiation, MCMC~methods, Bayesian~inference,
+  probabilistic~programming, agentic~AI, MCP
+- *Scientific computing*: molecular~simulation, enhanced~sampling~methods, FEP,
+  stochastic~optimization
+- *HPC*: CUDA, Triton, Pallas, profiling (Nsight, Perfetto), CMake
 - *Data & Infrastructure*: Spark, Docker, Kubernetes, Terraform, Pulumi, AWS,
   GCP
 - *Dev tools & practices*: Nix, setuptools/pip, CI/CD, property-based~testing,
-  AI~coding~tools (Claude~Code)
+  agentic~engineering (Claude~Code)
+
+// Alternate expanded skills:
+// - *Languages*: Python (JAX, PyTorch, NumPy), C/C++, CUDA, Haskell, Scala, SQL,
+//   JavaScript (React), Elm
+// - *HPC*: CUDA, Triton, Pallas, profiling (Nsight, Perfetto), CMake
+// - *ML & Scientific computing*: JAX, PyTorch, automatic~differentiation,
+//   Monte~Carlo~methods, Bayesian~inference, probabilistic~programming,
+//   molecular~simulation, enhanced~sampling~methods
+// - *Tools*: setuptools/pip, CMake, Nix, Docker, CI/CD, IaC (Terraform, Pulumi),
+//   orchestration (Kubernetes), cloud (AWS, GCP), agentic coding
+// - *Domain expertise*: machine learning, computational~physics,
+//   functional~programming, Monte~Carlo~methods, Bayesian inference, probabilistic
+//   programming, mathematical modeling, numerical analysis, stochastic
+//   optimization, data science
 
 == Publications
 
-M. Wittmann, A.P. Young. "The connection between statics and dynamics of spin
-glasses." _Journal of Statistical Mechanics: Theory and Experiment_, 2016.
+#link(
+  "http://iopscience.iop.org/article/10.1088/1742-5468/2016/01/013301/meta",
+)[M. Wittmann, A.P. Young. "The connection between statics and dynamics of spin
+  glasses." _Journal of Statistical Mechanics: Theory and Experiment_, 2016.]
 
-T. Aspelmeier, H.G. Katzgraber, D. Larson, M.A. Moore, M. Wittmann, J. Yeo.
-"Finite-size critical scaling in Ising spin glasses in the mean-field regime."
-_Physical Review E_ 93, 032123, 2016.
+#link("http://arxiv.org/pdf/1509.05372")[T. Aspelmeier, H.G. Katzgraber, D.
+  Larson, M.A. Moore, M. Wittmann, J. Yeo. "Finite-size critical scaling in
+  Ising spin glasses in the mean-field regime." _Physical Review E_ 93,
+  032123, 2016.]
 
-M. Wittmann, B. Yucesoy, H.G. Katzgraber, J. Machta, A.P. Young.
-"Low-temperature behavior of the statistics of the overlap distribution in Ising
-spin-glass models." _Physical Review B_ 90, 134419, 2014.
+#link("http://link.aps.org/doi/10.1103/PhysRevB.90.134419")[M. Wittmann, B.
+  Yucesoy, H.G. Katzgraber, J. Machta, A.P. Young. "Low-temperature behavior of
+  the statistics of the overlap distribution in Ising spin-glass models."
+  _Physical Review B_ 90, 134419, 2014.]
 
-M. Wittmann, A.P. Young. "Finite-size scaling above the upper critical
-dimension." _Physical Review E_ 90, 062137, 2014.
+#link("http://link.aps.org/doi/10.1103/PhysRevE.90.062137")[M. Wittmann, A.P.
+  Young. "Finite-size scaling above the upper critical dimension." _Physical
+    Review E_ 90, 062137, 2014.]
 
-M. Wittmann, A.P. Young. "Spin glasses in the nonextensive regime." _Physical
-  Review E_ 85, 041104, 2012.
+#link("http://pre.aps.org/abstract/PRE/v85/i4/e041104")[M. Wittmann, A.P. Young.
+  "Spin glasses in the nonextensive regime." _Physical Review E_ 85, 041104,
+  2012.]
 
 == Education
 

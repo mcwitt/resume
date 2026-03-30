@@ -41,10 +41,25 @@
  * #generic-one-by-two(left: "", right: "")
  */
 
-Research engineer with a track record of developing ideas from abstract theory
-to high-performance, maintainable systems
+Senior ML/Research Engineer specializing in GPU-accelerated computing,
+probabilistic inference, and scientific simulation. 10 years of experience
+spanning ML infrastructure, data platforms, and computational physics.
 
 == Work Experience
+
+#generic-one-by-two(
+  left: strong[Independent Research & Engineering],
+  right: dates-helper(start-date: "Apr 2025", end-date: "Present"),
+)
+- Self-directed study of mechanistic interpretability, RLHF, efficient
+  attention, and flow matching
+- Developed a self-hosted #link("https://github.com/mcwitt/elwood")[AI agent
+    platform] with sandboxed deployment, MCP tool discovery, and multi-agent
+  orchestration
+- Built and optimized #link("https://github.com/mcwitt/ising-cuda")[GPU kernels]
+  for Monte Carlo simulation using CUDA and JAX/Pallas
+- Implemented a transformer from scratch in JAX; prototyped a reverse-mode AD
+  eDSL in Haskell
 
 #work(
   title: "Research Software Engineer",
@@ -52,18 +67,21 @@ to high-performance, maintainable systems
   location: "Cambridge, MA (Remote)",
   dates: dates-helper(start-date: "Nov 2021", end-date: "Apr 2025"),
 )
-- Core developer of physics-based binding affinity prediction platform that
+- Core contributor to #link(
+    "https://github.com/proteneer/timemachine",
+  )[timemachine], an open-source, GPU-accelerated molecular dynamics engine
+- Core developer of physics-based ML binding affinity prediction platform that
   accelerated drug discovery R&D programs
 - Implemented and optimized high-performance simulation and inference algorithms
   using JAX and custom CUDA kernels
 - Led collaboration with academic researchers to prototype novel free energy
   perturbation (FEP) approaches
 - Deployed workloads to thousands of GPUs using AWS Batch and Terraform
-- Developed visual diagnostic tools to quickly surface issues in molecular
-  simulations and accelerate troubleshooting
-- Advocated for and drove adoption of tools to improve code quality and
-  developer productivity, e.g. property-based testing, gradual static typing,
-  and CI/CD optimizations
+// - Developed visual diagnostic tools to quickly surface issues in molecular
+//   simulations and accelerate troubleshooting
+// - Advocated for and drove adoption of tools to improve code quality and
+//   developer productivity, e.g. property-based testing, gradual static typing,
+//   and CI/CD optimizations
 
 #work(
   title: "Software Engineer",
@@ -76,16 +94,17 @@ to high-performance, maintainable systems
   and Kubernetes
 - Automated QA workflow for contractors, including AST-level checks to verify
   safety and robustness
-- Designed and implemented full-stack application for automated diagnosis and
-  correction of data quality issues in core product
+- Proposed and built app for human-in-the-loop diagnosis and correction of data
+  quality issues
 
-// #work(
-//   title: "Contract Software Engineer",
-//   company: "Memorial Sloan Kettering Cancer Center",
-//   location: "New York, NY (Remote)",
-//   dates: dates-helper(start-date: "Jul 2020", end-date: "Sep 2020"),
-// )
-// - Built and deployed app to parse, analyze, and visualize free energy predictions for simulations running on Folding\@home
+#work(
+  title: "Contract Software Engineer",
+  company: "Memorial Sloan Kettering Cancer Center",
+  location: "New York, NY (Remote)",
+  dates: dates-helper(start-date: "Jul 2020", end-date: "Sep 2020"),
+)
+- Built and deployed app to parse, analyze, and visualize free energy
+  predictions for simulations running on Folding\@home
 
 #work(
   title: "Data Platform Engineer",
@@ -107,28 +126,24 @@ to high-performance, maintainable systems
 - Released Python library for fitting and prediction using empirical Bayes
   models, used in multiple internal projects
 
-== Open source
-
-#project(
-  name: "timemachine",
-  // Role is optional
-  // role: "Contributor",
-  // Dates is optional
-  dates: dates-helper(start-date: "2021", end-date: "Present"),
-  // URL is also optional
-  url: "github.com/proteneer/timemachine",
-) \
-Core contributor developing a high-performance, differentiable molecular
-dynamics engine leveraging JAX and CUDA
-
-#project(
-  name: "nixpkgs",
-  dates: dates-helper(start-date: "2020", end-date: "Present"),
-  url: "github.com/NixOS/nixpkgs",
-) \
-Contributor and maintainer of packages in the Nix ecosystem, particularly
-related to Python data science and ML
-
+// == Open Source Contributions
+//
+// #project(
+//   name: "timemachine",
+//   dates: dates-helper(start-date: "2021", end-date: "2025"),
+//   url: "github.com/proteneer/timemachine",
+// ) \
+// Core contributor developing a high-performance, differentiable molecular
+// dynamics engine leveraging JAX and CUDA
+//
+// #project(
+//   name: "nixpkgs",
+//   dates: dates-helper(start-date: "2020", end-date: "Present"),
+//   url: "github.com/NixOS/nixpkgs",
+// ) \
+// Contributor and maintainer of packages in the Nix ecosystem, particularly
+// related to Python data science and ML
+//
 // #project(
 //   name: "hasktorch",
 //   dates: dates-helper(start-date: "2020", end-date: "2021"),
@@ -140,14 +155,15 @@ related to Python data science and ML
 == Skills
 
 - *Languages*: Python, C++, Scala, Haskell, SQL
+- *ML & AI*: JAX, PyTorch, transformers, LLMs, inference~optimization,
+  automatic~differentiation, MCMC~methods, Bayesian~inference,
+  probabilistic~programming, agentic~AI, MCP
+- *Scientific computing*: molecular~simulation, enhanced~sampling~methods, FEP
 - *HPC*: CUDA, Triton, Pallas, profiling (Nsight, Perfetto), CMake
-- *ML & Scientific computing*: JAX, PyTorch, automatic~differentiation,
-  MCMC~methods, Bayesian~inference, probabilistic~programming,
-  molecular~simulation, enhanced~sampling~methods
 - *Data & Infrastructure*: Spark, Docker, Kubernetes, Terraform, Pulumi, AWS,
   GCP
-- *Dev tools & practices*: Nix, CI/CD, property-based~testing, AI~coding~tools
-  (Claude~Code)
+- *Dev tools & practices*: Nix, CI/CD, property-based~testing,
+  agentic~engineering (Claude~Code)
 
 == Education
 
